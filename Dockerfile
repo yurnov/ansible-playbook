@@ -1,4 +1,4 @@
-FROM alpine:3.10.3
+FROM alpine:3.11.3
 
 RUN \
   apk add \
@@ -22,7 +22,7 @@ RUN echo "[local]" >> /etc/ansible/hosts && \
     echo "localhost" >> /etc/ansible/hosts
 
 RUN \
-  curl -fsSL https://releases.ansible.com/ansible/ansible-2.9.1.tar.gz -o ansible.tar.gz && \
+  curl -fsSL https://releases.ansible.com/ansible/ansible-2.9.3.tar.gz -o ansible.tar.gz && \
   tar -xzf ansible.tar.gz -C ansible --strip-components 1 && \
   rm -fr ansible.tar.gz /ansible/docs /ansible/examples /ansible/packaging
 
