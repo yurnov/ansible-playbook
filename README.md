@@ -48,9 +48,12 @@ Note: the Ansible Vault executable is embedded in this image. To use it, specify
 ```
 docker run --rm -it -v $(pwd):/ansible/playbooks --entrypoint ansible-vault yurnov/ansible-playbook encrypt FILENAME
 ```
+## Name convention
+
+Two Ansible version maitained, 2.8 (branch `2.8`), and 2.9 (branch `master`), all commit with minor uplitf tagged with same tag, as Ansible version, like `v2.9.6` or `v2.8.10` (latest version in time of this comment)
 
 ## Difference against philm/ansible_playbook
 
-* Alpine updated to recent version (3.11.3 in time of latest commit)
+* Alpine updated to recent version (3.11.5 in time of latest commit)
 * Volume /app added to store local data
-* Ansible updated to latest version (2.9.4)
+* Ansible updated to latest version (2.9.6)
