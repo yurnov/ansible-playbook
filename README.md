@@ -56,4 +56,4 @@ Two Ansible version maitained, 2.8 (branch `2.8`), and 2.9 (branch `master`), al
 
 * Alpine updated to recent version (3.11.5 in time of latest commit)
 * Volume /app added to store local data
-* Ansible updated to latest version (2.9.6)
+* Ansible updated to latest version (2.9.7)
