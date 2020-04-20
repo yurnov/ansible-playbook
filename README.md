@@ -51,6 +51,6 @@ docker run --rm -it -v $(pwd):/ansible/playbooks --entrypoint ansible-vault yurn
 
 ## Difference against philm/ansible_playbook
 
-* Alpine updated to recent version (3.11.3 in time of latest commit)
+* Alpine updated to recent version (3.11.5 in time of latest commit)
 * Volume /app added to store local data
-* Ansible updated to latest version (2.8.8)
+* Ansible updated to latest version (2.8.11)

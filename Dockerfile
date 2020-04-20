@@ -1,5 +1,5 @@
 FROM alpine:3.11.5
-ARG VERSION=2.8.10
+ARG VERSION=2.8.11
 
 RUN \
   apk add \
