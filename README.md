@@ -1,3 +1,7 @@
+# Depracation warning
+
+This repo and image are not maintained anymore, don't use it in production
+
 # Ansible Playbook Docker Image
 
 Executes ansible-playbook command against an externally mounted set of Ansible playbooks inspired and forked from [philm/ansible_playbook](https://github.com/philm/ansible_playbook/):
